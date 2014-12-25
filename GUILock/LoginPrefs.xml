@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- $Change: 315065 $ (must be within the first 200 characters of the file) -->
+<Root>
+  <Value name="GUILock" value="true" />
+  <Archive name="GUILockData" />
+</Root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- $Change: 315065 $ (must be within the first 200 characters of the file) -->
+<Root>
+  <Module name="GUILock"
+    movie          = "GUILock/GUILock.swf"
+    depth_layer    = "Top"
+    flags          = "GMF_CFG_STORE_USER_CONFIG | GMF_DONT_UNLOAD"
+    sub_depth      = "2"
+    variable       ="GUILock"
+    config_name = "GUILockData"
+    criteria="GUILock &amp;&amp; (( guimode &amp; (GUIMODEFLAGS_INPLAY | GUIMODEFLAGS_ENABLEALLGUI) ))"
+  />
+</Root>
